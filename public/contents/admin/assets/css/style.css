@@ -1,0 +1,120 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+img{
+  border: 0px;
+}
+
+ul, ol{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+
+}
+
+.card_top_title{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.card_top_btn{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form_group{
+
+}
+
+.form_group label{
+    text-align: right;
+    padding-right: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+span.req_star{
+  color: #B22222;
+  font-weight: bold;
+}
+
+.has-error label{
+    color: #B22222;
+}
+
+.has-error .form-control{
+    border: 1px solid #B22222;
+}
+
+.has-error span.error{
+    color: #B22222;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.view_custom_table{
+
+}
+.view_custom_table tr{
+
+}
+
+.view_custom_table tr td {
+
+}
+
+.view_custom_table tr td:first-child {
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
+    width: 29%;
+}
+
+.view_custom_table tr td:last-child {
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+    width: 70%;
+}
+
+.sub_buttton{
+   background-color: green!important;
+   padding: 5px 10px!important;
+   color: #fff!important;
+   font-weight: bold!important;
+}
+
+.img_150{
+    width: 150px;
+    height: 150px;
+}
+
+.img_100{
+    width: 100px;
+    height: 100px;
+}
+
+.img_50{
+    width: 50px;
+    height: 50px;
+}
+
+@media print {
+  .print_none{
+      display: none!important;
+  }
+
+  .right-panel{
+      width: 100%!important;
+  }
+}
